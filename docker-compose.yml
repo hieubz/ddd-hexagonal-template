@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  demo-app:
+    build:
+      context: . # current directory
+    ports:
+      - "8080:8080" # Maps port 8080 on the host machine to port 8080 on the container
+    networks:
+      - spring-boot-network
+
+networks:
+  spring-boot-network:
+    driver: bridge

@@ -1,0 +1,51 @@
+{
+  "info": {
+    "_postman_id": "68686868",
+    "name": "Base Demo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "68686868"
+  },
+  "item": [
+    {
+      "name": "create booking",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Verify-Token",
+            "value": "39489c18-7b74-11ec-90d6-0242ac120003",
+            "type": "text",
+            "disabled": true
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"user_id\" : 686868,\n    \"total_amount\": 120000,\n    \"shipping_address\": \"Nhổn\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8080/api/v1/bookings",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "bookings"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
