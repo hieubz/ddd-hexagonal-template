@@ -33,7 +33,7 @@ mvn clean install
 docker-compose up --build
 ```
 
-### Postman Collection
+### Verify
 
 The Postman collection for testing the API is located in the `docs` directory:
 
