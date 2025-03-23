@@ -1,6 +1,10 @@
 # Domain-Driven Design and Hexagonal Architecture Spring Boot Template
 
 
+
+This project leverages Domain-Driven Design and Hexagonal Architecture to create a robust and maintainable application. If you're interested in understanding the architecture and implementation details behind this template, check out [my blog](https://phamduyhieu.com/understanding-hexagonal-architecture-with-java-spring-boot-examples).
+
+
 ![hexagonal_architecture.png](hexagonal_architecture.png)
 
 ## Getting Started
